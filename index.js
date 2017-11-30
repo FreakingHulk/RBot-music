@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const blacklist = require("./blacklist.json");
 const YTDL = require("ytdl-core")
 const FFMPEG = require("ffmpeg")
-const prefix = process.env.PREFIX
+const prefix = process.env.prefix
 const mastid = process.env.MASTER_ID
 const eightball = process.env.EBALL
 
